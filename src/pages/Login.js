@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import "./index.css";
-import split from "./split.gif";
+import homescreen from "./homescreen.jpg";
 import ClipLoader from "react-spinners/CircleLoader";
 import { useHistory } from "react-router-dom";
 
@@ -88,7 +88,7 @@ export default function Login() {
           <div className="gif-box">
             {/* <Iframe url="https://giphy.com/embed/xT1R9TaUQfgf5qQZEY" width="50%" height="50%" position='absolute' className="giphy-embed" ></Iframe> */}
             <img
-              src={split}
+              src={homescreen}
               alt="loading..."
               style={{ height: "100%", width: "50%", position: "absolute" }}
             />

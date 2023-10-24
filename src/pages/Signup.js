@@ -12,7 +12,7 @@ export default function Signup() {
   const [loading, setLoading] = useState();
   const [firstName, setFirstName] = useState();
   const [lastName, setLastName] = useState();
-  const [showPassword, setShow] = useState(false);
+  const [showPassword, _setShow] = useState(false);
 
   const history = useHistory();
   if (localStorage.getItem("user-info")) {
